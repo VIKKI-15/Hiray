@@ -6,7 +6,7 @@
                         <div class="col-12 col-lg-3 offset-sm-1 col-sm-5 order-sm-2 order-lg-0 md-margin-40px-bottom xs-margin-25px-bottom">
                             <span class="alt-font font-weight-500 d-block text-white margin-20px-bottom xs-margin-10px-bottom">Quick links</span>
                             <ul>
-                                <li><i class="fas fa-angle-right d-logo-none dropdown-toggle"></i><a href="our-services.html">jome</a></li>
+                                <li><i class="fas fa-angle-right d-logo-none dropdown-toggle"></i><a href="our-services.html">Home</a></li>
                                 <li><i class="fas fa-angle-right d-logo-none dropdown-toggle"></i><a href="our-services.html">About</a></li>
                                 <li><i class="fas fa-angle-right d-logo-none dropdown-toggle"></i><a href="our-services.html">Courses</a></li>
                                 <li><i class="fas fa-angle-right d-logo-none dropdown-toggle"></i><a href="our-services.html">Faculty</a></li>
