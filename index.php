@@ -8,28 +8,61 @@
       <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
       <meta name="description" content="Description">
       <!-- favicon icon -->
-      <link rel="shortcut icon" href="images/favicon.png">
-      <link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-      <!-- style sheets and font icons  -->
-      <link rel="stylesheet" type="text/css" href="css/font-icons.min.css">
-      <link rel="stylesheet" type="text/css" href="css/theme-vendors.min.css">
-      <link rel="stylesheet" type="text/css" href="css/style.css" />
-      <link rel="stylesheet" type="text/css" href="css/responsive.css" />
-      <!-- revolution slider -->
-      <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
-      <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
-      <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
-   </head>
-   <body data-mobile-nav-style="classic">
-      <?php include('header.php')?>
-      <!-- start section -->
-      <section class="parallax bg-extra-dark-gray p-0" data-parallax-background-ratio="0.5" style="background-image:url('images/banner/1.png');">
-         <div class="opacity-light bg-extra-dark-gray"></div>
-         <div class="container-fluid">
-            <div class="row align-items-stretch justify-content-center fullscreen-top-space md-landscape-h-600px">
-               <div class="col-12 col-xl-6 col-sm-7 position-relative d-flex flex-column justify-content-center text-center">
+		<link rel="shortcut icon" href="images/favicon.png">
+		<link rel="apple-touch-icon" href="images/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+		<!-- style sheets and font icons  -->
+		<link rel="stylesheet" type="text/css" href="css/font-icons.min.css">
+		<link rel="stylesheet" type="text/css" href="css/theme-vendors.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/responsive.css" />
+		<!-- revolution slider -->
+		<link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+		<link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+		<link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+		<style>
+			#popUpMain
+			{
+				position: relative;
+				width: 100%;
+				height: 100%;
+				background: rgba(0, 0, 0, 0.6);
+				z-index: 1001;
+			}
+			#popup
+			{
+				width: 456px;
+				height: 643px;
+				background-image: url("EterniaPoster.jpeg");
+				background-size: cover;
+				position: absolute;
+				top: 50%;
+				left: 27%;
+				box-shadow: 2px 2px 5px 3x black;
+			}
+		</style>
+	</head>
+	<body data-mobile-nav-style="classic">
+		<div id="popUpMain" style="display: none;">
+			<div id="popup"></div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function() {
+				$("#popUpMain").css('display', 'block');
+				$("body").click(function() {
+					$("#popUpMain").css('display', 'none');
+				});
+			});
+		</script>
+		<?php include('header.php')?>
+		<!-- start section -->
+		<section class="parallax bg-extra-dark-gray p-0" data-parallax-background-ratio="0.5" style="background-image:url('images/banner/1.png');">
+			<div class="opacity-light bg-extra-dark-gray"></div>
+			<div class="container-fluid">
+			<div class="row align-items-stretch justify-content-center fullscreen-top-space md-landscape-h-600px">
+				<div class="col-12 col-xl-6 col-sm-7 position-relative d-flex flex-column justify-content-center text-center">
                   <span class="alt-font font-weight-500 text-extra-large letter-spacing-2px text-white text-uppercase d-block margin-35px-bottom sm-margin-15px-bottom">Welcome To LBHSST</span>
                   <h1 class="alt-font font-weight-800 title-custom text-white text-uppercase margin-25px-bottom  sm-margin-30px-bottom text-shadow-large xs-w-80 mx-auto">"education is the passport to the future for tomorrow belongs to those who prepare for it today."</h1>
                   <h1 class="alt-font font-weight-800 title-custom-2 text-white text-uppercase margin-45px-bottom  sm-margin-30px-bottom text-shadow-large xs-w-80 mx-auto">- Malcolm X</h1>
@@ -109,15 +142,15 @@
                <div class="col-12 col-lg-3 offset-xl-1 col-md-4 col-sm-6 xs-padding-40px-lr last-paragraph-no-margin wow animate__fadeIn" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeIn;">
                   <span class="alt-font font-weight-600 text-extra-large text-extra-dark-gray letter-spacing-minus-1-half d-block margin-15px-bottom">Mission</span>
                   <p class="text-large line-height-30px xs-w-90">To impart comprehensive education, keeping abreast with the existing trends to make students sensitive towards sustainable development.</p>
-               </div>
-               <div class="col-12 col-md-4 offset-xl-1 d-none d-md-block wow animate__fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
-                  <div class="outside-box-text-end">
-                     <span class="alt-font font-weight-600 text-extra-dark-gray opacity-1 text-extra-big-2 letter-spacing-minus-10px line-height-100px">Hiray</span>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
+				</div>
+				<div class="col-12 col-md-4 offset-xl-1 d-none d-md-block wow animate__fadeIn" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeIn;">
+					<div class="outside-box-text-end">
+						<span class="alt-font font-weight-600 text-extra-dark-gray opacity-1 text-extra-big-2 letter-spacing-minus-10px line-height-100px">Hiray</span>
+					</div>
+				</div>
+			</div>
+			</div>
+		</section>
       <!-- start section -->
       <section class="big-section no-padding">
          <div class="container">
@@ -462,7 +495,7 @@
          <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
          <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>
          <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->
-      <script type="text/javascript">
+		<script type="text/javascript">
          var revapi263,
                  tpj;
          (function () {
@@ -584,13 +617,13 @@
          }()); /* END OF WRAPPING FUNCTION */
                  
       </script>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-93NGDNYKNY"></script>
-      <script>
-         window.dataLayer = window.dataLayer || [];
-         function gtag(){dataLayer.push(arguments);}
-         gtag('js', new Date());
-         gtag('config', 'G-93NGDNYKNY');
-      </script>
-   </body>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-93NGDNYKNY"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'G-93NGDNYKNY');
+		</script>
+	</body>
 </html>
