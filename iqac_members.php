@@ -89,7 +89,7 @@
                      <div id="research" class="tab-pane fade in active show">
                         <div class="row align-items-center">
                            <div class="col-12 col-lg-12 text-center col-md-8">
-                              <h5 class="w-90 alt-font font-weight-600 text-extra-dark-gray">IQAC Committe Members</h5>
+                              <h5 class="w-90 alt-font font-weight-600 text-extra-dark-gray ">IQAC Committe Members</h5>
                               <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-5 justify-content-center">
                                  <!-- start team item -->
                                  <div class="col team-style-03 text-center md-margin-25px-bottom xs-margin-10px-bottom wow animate__fadeIn" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeIn;">
@@ -98,8 +98,8 @@
                                           <img alt="" src="images/Temp_Image.png" data-no-retina="">
                                        </div>
                                        <figcaption class="bg-white padding-20px-tb text-center lg-padding-30px-tb">
-                                          <div class="alt-font font-weight-500 text-slate-blue text-uppercase">Student Name</div>
-                                          <span class="text-small text-uppercase d-block margin-20px-bottom lg-margin-10px-bottom">Designation</span>
+                                          <div class="alt-font font-weight-500 text-slate-blue text-uppercase">Prof. Dr. Minesh Ade</div>
+                                          <span class="text-small text-uppercase d-block margin-20px-bottom lg-margin-10px-bottom">Director</span>
                                        </figcaption>
                                     </figure>
                                  </div>
@@ -121,8 +121,8 @@
                                           <img alt="" src="images/Temp_Image.png" data-no-retina="">
                                        </div>
                                        <figcaption class="bg-white padding-20px-tb text-center lg-padding-30px-tb">
-                                          <div class="alt-font font-weight-500 text-slate-blue text-uppercase">Student Name</div>
-                                          <span class="text-small text-uppercase d-block margin-20px-bottom lg-margin-10px-bottom">Designation</span>
+                                          <div class="alt-font font-weight-500 text-slate-blue text-uppercase">Dr. Sadhana Ojha</div>
+                                          <span class="text-small text-uppercase d-block margin-20px-bottom lg-margin-10px-bottom">Coordinator</span>
                                        </figcaption>
                                     </figure>
                                  </div>
@@ -134,8 +134,8 @@
                                           <img alt="" src="images/Temp_Image.png" data-no-retina="">
                                        </div>
                                        <figcaption class="bg-white padding-20px-tb text-center lg-padding-30px-tb">
-                                          <div class="alt-font font-weight-500 text-slate-blue text-uppercase">Student Name</div>
-                                          <span class="text-small text-uppercase d-block margin-20px-bottom lg-margin-10px-bottom">Designation</span>
+                                          <div class="alt-font font-weight-500 text-slate-blue text-uppercase">Dr. Rashmita P</div>
+                                          <span class="text-small text-uppercase d-block margin-20px-bottom lg-margin-10px-bottom">Faculties </span>
                                        </figcaption>
                                     </figure>
                                  </div>
@@ -157,8 +157,8 @@
                                           <img alt="" src="images/Temp_Image.png" data-no-retina="">
                                        </div>
                                        <figcaption class="bg-white padding-20px-tb text-center lg-padding-30px-tb">
-                                          <div class="alt-font font-weight-500 text-slate-blue text-uppercase">Student Name</div>
-                                          <span class="text-small text-uppercase d-block margin-20px-bottom lg-margin-10px-bottom">Designation</span>
+                                          <div class="alt-font font-weight-500 text-slate-blue text-uppercase">Asst. Prof. Vikram P.</div>
+                                          <span class="text-small text-uppercase d-block margin-20px-bottom lg-margin-10px-bottom">Faculties</span>
                                        </figcaption>
                                     </figure>
                                  </div>
@@ -170,7 +170,7 @@
                                           <img alt="" src="images/Temp_Image.png" data-no-retina="">
                                        </div>
                                        <figcaption class="bg-white padding-20px-tb text-center lg-padding-30px-tb">
-                                          <div class="alt-font font-weight-500 text-slate-blue text-uppercase">Student Name</div>
+                                          <div class="alt-font font-weight-500 text-slate-blue text-uppercase">Name</div>
                                           <span class="text-small text-uppercase d-block margin-20px-bottom lg-margin-10px-bottom">Designation</span>
                                        </figcaption>
                                     </figure>
@@ -183,8 +183,8 @@
                                           <img alt="" src="images/Temp_Image.png" data-no-retina="">
                                        </div>
                                        <figcaption class="bg-white padding-20px-tb text-center lg-padding-30px-tb">
-                                          <div class="alt-font font-weight-500 text-slate-blue text-uppercase">Student Name</div>
-                                          <span class="text-small text-uppercase d-block margin-20px-bottom lg-margin-10px-bottom">Designation</span>
+                                          <div class="alt-font font-weight-500 text-slate-blue text-uppercase">Asst. Prof. Sheetal Waghmare</div>
+                                          <span class="text-small text-uppercase d-block margin-20px-bottom lg-margin-10px-bottom">Faculties</span>
                                        </figcaption>
                                     </figure>
                                  </div>
@@ -196,8 +196,8 @@
                                           <img alt="" src="images/Temp_Image.png" data-no-retina="">
                                        </div>
                                        <figcaption class="bg-white padding-20px-tb text-center lg-padding-30px-tb">
-                                          <div class="alt-font font-weight-500 text-slate-blue text-uppercase">Student Name</div>
-                                          <span class="text-small text-uppercase d-block margin-20px-bottom lg-margin-10px-bottom">Designation</span>
+                                          <div class="alt-font font-weight-500 text-slate-blue text-uppercase">Asst. Prof. Avantika Mahadik</div>
+                                          <span class="text-small text-uppercase d-block margin-20px-bottom lg-margin-10px-bottom">Faculties</span>
                                        </figcaption>
                                     </figure>
                                  </div>
