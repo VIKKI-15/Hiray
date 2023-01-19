@@ -109,7 +109,9 @@ strong {
 	font-weight: 600
 }
 
-
+.alt-font strong {
+	font-weight: 600
+}
 
 .last-paragraph-no-margin p:last-of-type {
 	margin-bottom: 0
@@ -349,7 +351,7 @@ header [class^=container-] [class^=col-] {
 }
 
 .alt-font {
-	font-family: 'Times New Roman', Times, serif;
+	font-family: Poppins, sans-serif;
 }
 
 .main-font {
