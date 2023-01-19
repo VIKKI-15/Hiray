@@ -12,6 +12,9 @@ html {
 .all-demo {
 	display: none;
 }
+
+
+
 .row-cols-md-4 > * {
 	width: 20%!important;
 }
@@ -348,7 +351,7 @@ header [class^=container-] [class^=col-] {
 }
 
 .alt-font {
-	font-family: Poppins, sans-serif
+	font-family: Poppins, sans-serif;
 }
 
 .main-font {

@@ -31,7 +31,7 @@
                <div class="col-md-9 text-center d-flex">
                   <!-- <img src="images/logo/mca-logo.png" data-at2x="images/logo/mca-logo-@.png" class="default-logo d-flex" alt="" width="168" height="168" > -->
                   <div class="d-grid">
-                     <h6 class="alt-font text-extra-dark-gray no-margin font-weight-500">LATE BHAUSAHEB HIRAY SMARNIKA SAMITI TRUST</h6>
+                     <h6 class="alt-font text-extra-dark-gray no-margin font-weight-500"> BHAUSAHEB HIRAY SMARNIKA SAMITI TRUST</h6>
                      <h6 class="alt-font text-extra-dark-gray no-margin font-weight-500">INSTITUTE OF COMPUTER APPLICATION</h6>
                      <span class="alt-font font-weight-500 d-block text-extra-dark-gray">S.No.341, Goverment Colony, Opposite Kherwadi Police Station, Bandra (E), Mumbai-400051</span>
                      <span class="alt-font font-weight-500 text-extra-medium d-block margin-15px-bottom sm-margin-15px-bottom">ISO 9001-2015 Certified | Affiliated To Mumbai University</span>
