@@ -1,10 +1,14 @@
 <style>
+
    @media only screen and (max-width:991px) and (min-width:200px){
-   .d-logo-none{
-   display: none;
+      .d-logo-none{
+            display: none;
+      }
    }
-   }
-</style>
+
+   
+
+</style> 
 <!-- start header -->
 <header>
    <!-- start navigation -->
@@ -28,12 +32,11 @@
                <div class="col-md-2 d-logo-none text-center justify-content-center">
                   <img src="images/logo/mca-logo-@-old.png" data-at2x="images/logo/mca-logo-@-old.png" class="default-logo" alt="" width="150" height="150" >
                </div>
-               <div class="col-md-8 text-center d-flex justify-content-center">
+               <div class="col-md-8 text-center justify-content-center">
                   <!-- <img src="images/logo/mca-logo.png" data-at2x="images/logo/mca-logo-@.png" class="default-logo d-flex" alt="" width="168" height="168" > -->
                   <div class="d-grid">
-                     <h6 class="alt-font text-extra-dark-gray no-margin font-weight-500">LATE BHAUSAHEB HIRAY SMARNIKA SAMITI TRUST</h6>
-                     <h6 class="alt-font text-extra-dark-gray no-margin font-weight-500">INSTITUTE OF COMPUTER APPLICATION</h6>
-                     
+                     <h6 class="text-extra-dark-gray padding-five-top no-margin font-weight-500">LATE BHAUSAHEB HIRAY SMARNIKA SAMITI TRUST</h6>
+                     <h6 class="text-extra-dark-gray font-weight-500">INSTITUTE OF COMPUTER APPLICATION</h6>
                   </div>
                </div>
                <div class="col-md-2 d-logo-none text-center justify-content-center">
