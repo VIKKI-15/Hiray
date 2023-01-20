@@ -35,7 +35,7 @@
                <div class="col-md-8 text-center justify-content-center">
                   <!-- <img src="images/logo/mca-logo.png" data-at2x="images/logo/mca-logo-@.png" class="default-logo d-flex" alt="" width="168" height="168" > -->
                   <div class="d-grid">
-                     <h6 class="text-extra-dark-gray padding-five-top no-margin font-weight-500">LATE BHAUSAHEB HIRAY SMARNIKA SAMITI TRUST</h6>
+                     <h6 class="alt-font text-extra-dark-gray padding-five-top no-margin font-weight-500">LATE BHAUSAHEB HIRAY SMARNIKA SAMITI TRUST</h6>
                      <h6 class="text-extra-dark-gray font-weight-500">INSTITUTE OF COMPUTER APPLICATION</h6>
                   </div>
                </div>
@@ -77,7 +77,7 @@
                     </ul>
                   </li>
                   <li class="nav-item dropdown megamenu">
-                     <a href="javascript:void(0);" class="nav-link">Student&nbsp;<i class="fas fa-angle-down d-logo-none dropdown-toggle"></i></a>
+                     <a href="javascript:void(0);" class="nav-link ">Student&nbsp;<i class="fas fa-angle-down d-logo-none dropdown-toggle"></i></a>
                      <i class="fa fa-angle-down dropdown-toggle" data-bs-toggle="dropdown" aria-hidden="true"></i>
                      <div class="menu-back-div dropdown-menu megamenu-content" role="menu" style="left: 423.117px;">
                         <div class="d-lg-flex justify-content-center">
